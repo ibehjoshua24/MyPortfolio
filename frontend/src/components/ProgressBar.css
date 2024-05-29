@@ -1,0 +1,41 @@
+.progress-bar-container {
+    width: 100%;
+    background-color:  rgb(27, 2, 38);
+    border-radius: 25px;
+    /* margin: 20px 0; */
+    height: 20px;
+    border: 1px solid yellow;
+    position: relative;
+}
+
+.progress-bar-wrapper {
+    width: 80%;
+    margin: 10px 0;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: white;
+}
+
+
+.progress-value {
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+    color: white;
+    top: -50%;
+    transform: translateY(-50%);
+}
+
+.progress-bar{
+    height: 100%;
+    background-color: yellow;
+    border-radius: 25px;
+    transition: width 0.3s;
+    position: relative;
+}
+
+
