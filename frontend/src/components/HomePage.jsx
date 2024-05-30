@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./HomePage.css"
-import self from "../../public/me-01.png"
+import self from "../../public/ibeh.png"
 const HomePage = () => {
     const texts = ["FullStack Web Developer", "Frontend \developer", "Backend Developer"];
     const [displayedText, setDisplayedText] = useState('');
@@ -30,7 +30,7 @@ const HomePage = () => {
                     <h4>Hello, My Name Is </h4>
                     <span> Ibeh Joshua</span>
                     <h3>{displayedText}</h3>
-                    <button>Download CV</button>
+                    <a href="https://drive.google.com/file/d/11k4gGF53CCUFvptp1X10T3ZfA4Ml0v4v/view?usp=sharing" target="_blank"><button>Download CV</button></a>
                     <a href="#Contacts"><button>Let's talk</button></a>
                 </div>
                 <img src={self} alt="" />
