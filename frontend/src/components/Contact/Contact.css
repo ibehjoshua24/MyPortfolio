@@ -24,12 +24,16 @@
 }
 
 .conicons{
-    /* width: 10px; */
-    /* border: 2px white solid; */
     gap: 100px;
     display: flex;
     justify-content: center;
     
+}
+
+.conicons span{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
 }
 
 #icons{
@@ -37,6 +41,7 @@
     width: 30px;
     color: yellow;
     cursor: pointer;
+   
 }
 
 @media screen and (max-width: 576px) {

@@ -43,6 +43,11 @@
     color: yellow;
 }
 
+
+
+
+
+
 @media screen  and (max-width: 576px) {
     .aboutpage{
         padding-left: 20px;
@@ -53,5 +58,23 @@
     .aboutpage img{
         display: none;
     }
+
+    .abouttext h2 {
+        margin-left: 10%;
+    }
+}
+
+
+@media only screen  and (max-width: 992px) and (min-width:600px) {
+    .aboutpage{
+        padding-left: 50px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+    }
+
+    .aboutpage img{
+        width: 50%;
+    }
+
 }
 

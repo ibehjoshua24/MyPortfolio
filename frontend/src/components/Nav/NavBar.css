@@ -23,6 +23,7 @@
     color: yellow;
     font-size: 30px;
     font-weight: bold;
+    animation: slideInFromLeft 1s ease-out forwards;
 }
 
 .navbar-items{
@@ -35,12 +36,37 @@
 .navbar-items li {
     color: white;
     margin-right: 30px;
+    animation: slideInFromRight 1s ease-out forwards;
 }
 
 .navbar-items li a{
     text-decoration: none;
     color: white;
+   
 }
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 .navbar-items li a:hover{
     color: yellow;
@@ -57,3 +83,11 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+    .navbar {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+

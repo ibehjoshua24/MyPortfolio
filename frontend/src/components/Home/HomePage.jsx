@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
 import "./HomePage.css"
-import self from "../../public/ibeh.png"
+import self from "../../../public/ibeh.png"
 const HomePage = () => {
-    const texts = ["FullStack Web Developer", "Frontend \developer", "Backend Developer"];
+    const texts = ["FullStack Developer", "Frontend Developer", "Backend Developer"];
     const [displayedText, setDisplayedText] = useState('');
     const [index, setIndex] = useState(0)
     const [wordIndex, setWordIndex] = useState(0);
