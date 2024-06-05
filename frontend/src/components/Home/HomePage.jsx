@@ -31,7 +31,7 @@ const HomePage = () => {
                     <span> Ibeh Joshua</span>
                     <h3>{displayedText}</h3>
                     <a href="https://drive.google.com/file/d/11k4gGF53CCUFvptp1X10T3ZfA4Ml0v4v/view?usp=sharing" target="_blank"><button>Download CV</button></a>
-                    <a href="#Contacts"><button>Let's talk</button></a>
+                    <a href="mailto:ibehjoshua321@gmail.com"><button>Let's talk</button></a>
                 </div>
                 <img src={self} alt="" />
             </div>
