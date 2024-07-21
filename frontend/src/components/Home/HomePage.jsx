@@ -29,7 +29,7 @@ const HomePage = () => {
                 <div className="text">
                     <h4>Hello, My Name Is </h4>
                     <span> Ibeh Joshua</span>
-                    <h3>{displayedText}</h3>
+                    <h3 style={{minHeight: '1.5em'}}>{displayedText}</h3>
                     <a href="https://drive.google.com/file/d/11k4gGF53CCUFvptp1X10T3ZfA4Ml0v4v/view?usp=sharing" target="_blank"><button>Download CV</button></a>
                     <a href="mailto:ibehjoshua321@gmail.com"><button>Let's talk</button></a>
                 </div>
